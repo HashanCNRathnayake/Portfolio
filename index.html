@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hashan Rathnakaye </title>
+    <link rel="icon" href="icons/weblogo.png" type="image/x-icon"/>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- box icon links -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- fontaawsom link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+JP:wght@900&display=swap" rel="stylesheet">
+
+
+    <!-- Include jQuery library from a CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+  <script>
+    $(document).ready(function() {
+      $(".navlist a").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+      });
+    });
+    $(document).ready(function() {
+      $(".buttons a").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+      });
+    });
+    
+  </script>
+</head>
+
+<body>
+
+
+    <!-- header  -->
+    <header>
+        <a href="index.html">
+            <div class="brand">
+                <h1>H<span class="red">R</span></h1>
+            </div>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+
+        <ul class="navlist">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </ul>
+    </header>
+
+
+    <!-- section 1 - home  -->
+    <section class="home" id="home">
+        <div class="hero-text">
+            <h3>Hii, I'm</h3>
+            <!-- <h2 class="red bold">Welcome To My Digital Realm ! </h2> -->
+            <h1>Ha<span class="h1_low">SHAN</span> Rath<span class="h1_low">NAYAKE</span></h1>
+            
+            <div class="container">
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- &nbsp;<span id="auto-typed"></span></he>
+            </div>
+                <script src="JS/type.js"></script>
+            
+                <script>
+                    var typed = new Typed ("#auto-typed", {
+                        strings: [ "Software Developer.",  "Web Designer.", "Full Stack Web Developer.",  "Graphic Designer. ", "Database Manager."],
+                        typeSpeed: 150,
+                        backSpeed: 80,
+                        loop: true
+                    })
+                </script>
+            <div class="para">
+                <p>I am W. M. H. C. N. Rathnayake, a passionate 22 year old from Sri Lanka, embarked on a journey to craft an exceptional path as a developer as well as a designer.  <br><br> With a year's experience managing databases and, I'm committed to infusing innovation into every line of code.</p>
+
+            </div>
+            <div class="btn_tray">
+                <div class="buttons">
+                    <a href="#about" class="btn-blue"> About Me</a>&nbsp;&nbsp;&nbsp;
+                </div>
+
+                <a target="_blank" href="https://www.youtube.com/@hashanrathnayake7159" class="btn"> Introduction Video</a>
+    
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 2 - about  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="prof.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <br><h5>
+                I am W. M. Hashan C. N. Rathnayake, a 22 year old, passionate software engineer from Sri Lanka, currently pursuing a <span class="red">BSc. (Hons.) in Software Engineering Degree</span> at Lithan Educlaas Singapore. 
+                <br><br> I am driven by an enthusiasm to continuously advance my knowledge and skills to better prepared for future responsibilities. 
+                  
+            </h5>
+            <div class="btn_tray">
+
+                <a href="https://drive.google.com/u/0/uc?id=1JPiZMv8SK8uiMLemwAjPpRNvUTb08k4H&export=download" class="btn-blue">My Resume</a> &nbsp; 
+                <!-- <a href="https://drive.google.com/file/d/1JPiZMv8SK8uiMLemwAjPpRNvUTb08k4H/view?usp=sharing" class="btn-blue">My Resume</a> &nbsp;  -->
+
+                <div class="buttons">
+                    <a href="#contacts" class="btn">Hire Me</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="about_2">
+        <p>
+           Proficient in Java, I have a strong foundation in OOP for software development. 
+            
+            I excel in front-end programming with HTML, CSS, JavaScript, and Bootstrap, while also being adept at back-end development using Java, Spring MVC, Spring Boot, and Spring Security. 
+            My expertise extends to MySQL for database management, and I am well-versed in softwares like MySQL Workbench and phpMyAdmin. 
+            
+            <br><br>With experience in graphic design using Adobe Photoshop and Illustrator, I've also demonstrated proficiency in web design with Axure, Balsamiq, and Wondershare Edraw Max. 
+            
+            <br><br>My background includes a year as a Data Entry Operator at ELSETEEL Pvt Ltd., where I managed databases and worked with ERP systems. I've successfully executed numerous web development projects, showcasing my comprehensive skill set.
+        </p>
+    </div>
+
+
+    <!-- section 3 - services  -->
+    <section class="service" id="service">
+        <div class="text-center">
+            <h2>My Services</h2>
+            <h4 class="red">WITH YOU as well as FOR YOU</h4>
+            <h4><a href="#contacts" class="btn">Develop Your Deepest Desire</a></h4>
+        </div>
+
+        <div class="service-item">
+            <div class="service-box">
+                <div class="con_1">
+                    <i class='bx bxs-pen' ></i>
+                    <h3 class="mb">Web Design</h3>
+                    <p>I craft user-friendly website designs using tools like Axure other and designing tools.</p>
+                    <a href="#" class="s-btn"> Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-file-html' ></i>
+                <h3>Front End Web Development</h3>
+                <p>I create responsive web applications using front-end (HTML, CSS, JavaScript, Bootstrap).</p>
+                <a href="#" class="s-btn"> Read More</a>
+                
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxl-spring-boot' ></i>
+                <h3>Back End Web Development</h3>
+                <p> Server-side components using Java, Spring Boot, and MySQL for data handling and security.</p>
+                <a href="#" class="s-btn"> Read More</a>
+
+            </div>
+
+            <div class="service-box">
+                <div class="con_1">
+                    <i class='bx bxl-adobe' ></i>
+                    <h3 class="mb">Graphic Design</h3>
+                    <p>I design logos and graphics using Adobe Photoshop and Illustrator for enhanced branding.
+                    </p>
+                    <a href="#" class="s-btn"> Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-folder-open' ></i>
+                <h3>Databases Management</h3>
+                <p>I design and manage MySQL databases for efficient data storage and retrieval.</p>
+                <a href="#" class="s-btn"> Read More</a>
+                
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-window-alt' ></i>
+                <h3>ERP Systems Integration</h3>
+                <p> I have experience integrating and managing ERP systems to streamline business processes.</p>
+                <a href="#" class="s-btn"> Read More</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- section 4 - skils  -->
+    <section class="skills" id="skills">
+        <div class="text-center">
+            <h2>Skills & Experience</h2>
+            <h4 class="red">Possiblities & Impossibilites</h4>
+            <h4 class="">Just Words</h4>
+            <h4><a href="#contacts" class="btn-blue">Surpass Your Limits</a></h4>
+        </div>
+
+        <div class="skills-item">
+            
+            <div class="skills-box">
+                <i class='bx bxl-adobe' ></i>
+                <h3 class="">WEB & GRAPHIC DESIGNING</h3>
+                <P>Axure | Figma | Wordpress <br> Adobe Photoshop | Illustrator</P>
+
+                <div class="skill_img">
+                    <div class="icon"><img src="icons/axur.png" alt=""></div>
+                    <div class="icon"><img src="icons/balsami.png" alt=""></div>
+                    <div class="icon"><img src="icons/figma.png" alt=""></div>
+                    <div class="icon"><img src="icons/wordpress.png" alt=""></div>
+                    <div class="icon"><img src="icons/photoshop.png" alt=""></div>
+                    <div class="icon"><img src="icons/illustrator.png" alt=""></div>
+                </div>
+
+                <a href="#" class="s-btn"> Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3 class="">FRONT END DEVELOPMENT</h3>
+                <P>HTML | CSS | JavaScript <br> Bootstrap | Bootswatch </P>
+                <div class="skill_img">
+                    <div class="icon"><img src="icons/html-5.png" alt=""></div>
+                    <div class="icon"><img src="icons/css-3.png" alt=""></div>
+                    <div class="icon"><img src="icons/js.png" alt=""></div>
+                    <div class="icon"><img src="icons/bootstrap.png" alt=""></div>
+                    <div class="icon2"><img src="icons/bootswatch.png" alt=""></div>
+                </div>
+                
+                <a href="#" class="s-btn"> Read More</a>
+            </div>
+ 
+            <div class="skills-box">
+                <i class='bx bx-server' ></i>
+                <h3 class="">BACK END DEVELOPMENT</h3>
+                <P>Java | MySQL <br> Spring Boot | Security | MVC </P>
+                <div class="skill_img">
+                    <div class="icon"><img src="icons/java.png" alt=""></div>
+                    <div class="icon"><img src="icons/spring.png" alt=""></div>
+                    <div class="icon"><img src="icons/springboot.png" alt=""></div>
+                    <div class="icon"><img src="icons/mysql.png" alt=""></div>
+                </div>
+
+                <a href="#" class="s-btn"> Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxs-data'></i>                <h3 class="">DATABASES MANAGEMENT</h3>
+                <P>MySQL | MS Excel | MS Access <br> MySQL Workbench | phpMyAdmin</P>
+                <div class="skill_img">
+                    <div class="icon"><img src="icons/mysql.png" alt=""></div>
+                    <div class="icon"><img src="icons/excel.png" alt=""></div>
+                    <div class="icon"><img src="icons/access.png" alt=""></div>
+
+                    <div class="icon"><img src="icons/workbench.png" alt=""></div>
+                    <div class="icon"><img src="icons/phpmyadmiin.png" alt=""></div>
+                </div>
+                <a href="#" class="s-btn"> Read More</a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- section 5 - Projects  -->
+    <section id="projects">
+        <h3 class="main_title">Projects</h3>
+
+        <div class="projects" id="p_content">
+
+            <!-- row 1 -->
+            <div class="row">
+
+                <div id="b1c" class="card" onclick="openTab('b1');">
+                    <h3>ABC Learning Center</h3>
+                    <h6>Front End Development Project</h6>
+                    <img src="Projects/abclearn.jpg" alt="">
+                </div>
+                
+
+                <div id="b1" class="containerTab">
+                    <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+                    <h3>ABC Learning Center <br> <span>| Front End Development Project |</span></h3>
+
+                    <p>This project was created as a front end development project using HTML, CSS, JavaScript, jQuerry and Bootstrap.
+        
+                    <br><br>In this project, we are hoping to demonstrate how the front end development should be done and How the front end languages and technologies have been used. <br><br>
+
+                    <div class="lang_info">
+                        <div class="lang">
+                            <div class="icon"><img src="icons/html-5.png" alt=""></div>
+                            <div class="icon"><img src="icons/css-3.png" alt=""></div>
+                            <div class="icon"><img src="icons/js.png" alt=""></div>
+                            <div class="icon"><img src="icons/bootstrap.png" alt=""></div>    
+                            <div class="icon2"><img src="icons/bootswatch.png" alt=""></div>
+                        </div>
+                        <div><a target="_blank" href="https://hashancnrathnayake.github.io/ABC_Learning_Center/index.html" class="btn-blue"><i class="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;Launch </a></div>
+                    </div>
+                </div>
+    
+            </div>
+            
+            <!-- row 2 -->
+            <div class="row">
+
+                <div id="b2c" class="card" onclick="openTab('b2');">
+                    <h3>Boutiqa E-Commerce Company</h3>
+                    <h6>User Interface & Experience Designing</h6>
+                    <img src="Projects/uif-boutiqa2.png" alt="">
+                </div>
+                
+
+                <div id="b2" class="containerTab" >
+                    <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+                    <h3>Boutiqa E-Commerce Company <br><span>| User Interface & Experience Designing |</span></h3>
+                    <p>This project was created for the Boutiqa E-Commerce Company Website as a high-fidelity prototype designing project using AXURE, ADOBE PHOTOSHOP, ADOBE ILLUSTRATOR. <br><br> We are presenting this as a Stage of a web or software development, prototype designing. This inlcudes many steps such as Gathering Requirements, Brains store or Building an ideas, Designing, Testing, Refining.
+
+                    <div class="lang_info">
+                        <div class="lang">
+                                <div class="icon"><img src="icons/axur.png" alt=""></div>
+                                <div class="icon"><img src="icons/photoshop.png" alt=""></div>
+                                <div class="icon"><img src="icons/illustrator.png" alt=""></div>
+            
+                        </div>
+                        <!-- <div><a target="_blank" href="#" class="btn-blue"><i class="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;Launch Demo</a></div> -->
+                        <!-- <div><a href="#downloadlink" class="btn">Download Axure File</a></div> -->
+                    </div>
+                </div>
+    
+            </div>
+
+            <!-- row 3 -->
+            <div class="row">
+
+                <div id="b3c" class="card" onclick="openTab('b3');">
+                    <h3>Enomy Finance Company</h3>
+                    <h6>Full-Stack Web Developement Project</h6>
+                    <img src="Projects/enomy.png" alt="">
+                </div>
+
+                <div id="b3" class="containerTab" >
+                    <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+                    <h3>Enomy Finance Company <br><span>| Full-Stack Development Project |</span></h3>
+                    <p>Enomy Finance Company Website is one of my Full-Stack web developmet project using HTML, CSS, JavaScript, jQuerry, Spring MVC, Spring Security, MySQL, Tomcat Server. <br><br> This project is operating a Currency Converting System, Investment Plan Selector, as well as User Management System for Admins.   
+
+                    <div class="lang_info">
+                        <div class="lang">
+                            <div class="icon"><img src="icons/html-5.png" alt=""></div>
+                            <div class="icon"><img src="icons/css-3.png" alt=""></div>
+                            <div class="icon"><img src="icons/js.png" alt=""></div>
+                            <div class="icon"><img src="icons/bootstrap.png" alt=""></div>
+                            <div class="icon"><img src="icons/java.png" alt=""></div>
+                            <div class="icon"><img src="icons/spring.png" alt=""></div>
+                            <div class="icon2"><img src="icons/springboot.png" alt=""></div>
+                        </div>
+                        <!-- <div><a target="_blank" href="#" class="btn-blue"><i class="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;Launch Demo</a></div> -->
+                        <!-- <div><a href="#downloadlink" class="btn">Download Axure File</a></div> -->
+                    </div>
+                </div>
+    
+            </div>
+
+            <!-- row 4 -->
+            <div class="row">
+
+                <div id="b4c" class="card" onclick="openTab('b4');">
+                    <h3>ABC Car Sale Portal</h3>
+                    <h6>Full-Stack Web Developement Project</h6>
+                    <img src="Projects/carportal1.png" alt="">
+                </div>
+                
+
+                <div id="b4" class="containerTab" >
+                    <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+                    <h3>ABC Car Sale Portal <br><span>| Full-Stack Web Developement Project |</span></h3>
+                    <p>ABC Car Sale Portal is another my Full-Stack Project that was used HTML, CSS, JavaScript, jQuerry, SpringBoot, Spring Security and MySQL to develope. <br><br> This car sale portal has many fuctions for buying and selling cars. Users can add a car for sale, can bidding cars or buy cars. Admins can User Management as well as Car Management. 
+                    <div class="lang_info">
+                        <div class="lang">
+                            <div class="icon"><img src="icons/html-5.png" alt=""></div>
+                            <div class="icon"><img src="icons/css-3.png" alt=""></div>
+                            <div class="icon"><img src="icons/js.png" alt=""></div>
+                            <div class="icon"><img src="icons/bootstrap.png" alt=""></div>
+                            <div class="icon"><img src="icons/java.png" alt=""></div>
+                            <div class="icon"><img src="icons/spring.png" alt=""></div>
+                            <div class="icon2"><img src="icons/springboot.png" alt=""></div>
+            
+                        </div>
+                        <!-- <div><a target="_blank" href="#" class="btn-blue"><i class="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;Launch Demo</a></div> -->
+                        <!-- <div><a href="#downloadlink" class="btn">Download Axure File</a></div> -->
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+        
+
+
+
+
+    </section>
+
+
+
+    <!-- section 6 - Contact  -->
+    <section class="contacts" id="contacts">
+            <div class="contact_f">
+                <div class="left_c">
+                    <h3 class="title">Let's Get in Touch</h3>
+                    <h2>Your Vision&Our Design</h2>
+                    <p class="p1">
+                        I have an Awesome & Coloborative Working Environment and Culture, which is usually open for every customer as well as supervisors.
+                    </p>
+                    <div class="info">
+                        <div class="information">
+                            <a href="#map">
+                            <i class="fa-solid fa-map-location-dot"></i></a>
+                            <a class="t1" href="#map"> 
+                            <span>195/E, Rathmalyaya, Kovinna, Andiambalama, 11558, Sri Lanka<span></a>
+                        </div>
+                        <div class="information">
+                            <a href = "mailto:hashan24360@gmail.com?subject=Your%20Subject&body=Thank%20You%20For%20Your%20Consideration.">
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                            <span>hashan24360@gmail.com</span></a>
+                        </div>
+                        <div class="information">
+                            <a target="_blank" href="https://wa.link/itr0g7"><i class="fa-brands fa-whatsapp"></i>
+                            <span>+94 78 718 9456</span></a>
+                        </div>
+                        <div class="information">
+                            <i class="fa-solid fa-mobile-screen-button"></i>&nbsp;&nbsp;
+                            <span>+94 70 100 1205</span>
+                        </div>
+
+                        <div class="information"></div>
+                    </div>
+
+
+                </div>
+                
+
+                <div class="right_c">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+
+                    <form id="my-form" action="https://formspree.io/f/mleynlej" method="POST">
+                        <h3  class="title">Contact ME</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input " required>
+                            <label for="name">User Name</label>
+                            <span>User Name</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" required>
+                            <label for="email">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="sub" class="input">
+                            <label for="sub">Subject</label>
+                            <span>Subject</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea type="text" name="msg" class="input" required></textarea>
+                            <label for="msg">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input id="my-form-button" type="submit" value="Send" class="btn sm">
+                        <p id="my-form-status"></p>                    
+                    </form>
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- end section  -->
+    <section class="end-section" id="map">
+        <div class="sec_map">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5862640816576!2d79.9035358!3d7.173730699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2ef73fa735a4b%3A0x127664256537b623!2sWeb%20Arts%20%26%20Graphic%20Designers%20(%20Rathnayake%20Brothers%20)!5e0!3m2!1sen!2slk!4v1693826044876!5m2!1sen!2slk" width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+             </div>
+    
+        </div>
+    
+    <div class="end" id="end">
+        <h3>W. M. Hashan C. N. Rathnayake</h3>
+        <p>For More Details Follow Me On Social</p>
+        <div class="end-icons">
+            <a target="_blank" href="https://wa.link/itr0g7">
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/hashan.rathnayake.9210">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/hashan-rathnayake/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a target="_blank" href="mailto:hashan24360@gmail.com?subject=Your%20Subject&body=Thank%20You%20For%20Your%20Consideration.">
+                <i class="fa-solid fa-square-envelope"></i>
+            </a>
+            <a target="_blank" href="https://youtube.com/@hashanrathnayake7159?si=Roe56yUa0GmhXL8K">
+                <i class="fa-brands fa-square-youtube"></i>
+            </a>
+        </div>  
+    </div>   
+
+    </section>
+    <a target="_blank" href="https://wa.link/itr0g7" class="">
+        <img src="icons/whatsap.png" alt="" class="hello">
+    </a> 
+    <a target="_blank" href="https://wa.link/itr0g7" class="hello2">
+        <i class="fa-brands fa-whatsapp "></i>
+    </a>
+    <div class="buttons">
+        <a href="#end"><img class="nav_img" src="icons/logo.png" alt=""></a>
+
+        <!-- scroll butn -->
+        <a href="#home" class="scroll-btn"><i class='bx bxs-chevrons-up' ></i></a>
+    
+    </div>    
+    <!-- js link -->
+    <script src="JS/script.js"></script>
+    <script>
+        var form = document.getElementById("my-form");
+        
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+          }).then(response => {
+            if (response.ok) {
+              status.innerHTML = "Thanks for your submission!";
+              form.reset()
+            } else {
+              response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                } else {
+                  status.innerHTML = "Oops! There was a problem submitting your form"
+                }
+              })
+            }
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          });
+        }
+        form.addEventListener("submit", handleSubmit);
+        form.reset();
+
+    </script>
+
+
+</body>
+
+</html>
